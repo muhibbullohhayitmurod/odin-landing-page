@@ -140,3 +140,19 @@ a:visited {
     display: block;
     margin-left: auto;
 }
+
+
+.section--cta__box{
+    background-color: #00b4d8;
+    margin: 48px 0;
+    padding: 20px 96px;
+    border-radius: 0.5em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn--cta{
+    border: 2px solid #fff;
+}
