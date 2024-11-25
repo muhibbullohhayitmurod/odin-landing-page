@@ -9,9 +9,9 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    width: 85%;
-    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto
 }
 
 .header {
@@ -42,12 +42,14 @@ a:visited {
     text-decoration: none;
 }
 
-.section--main {
-    padding: 48px 72px;
-    display: flex;
-    gap: 10px;
+.section--main{
     background-color: #14213d;
     color: #fff;
+}
+
+.section--main .container {
+    display: flex;
+    padding: 96px 0;
 }
 
 .section--main__text,
@@ -89,4 +91,34 @@ a:visited {
     align-items: center;
     font-weight: bold;
     padding: 20px;
+}
+
+.section--info {
+    margin: 96px auto;
+}
+
+.section--info h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+.info-box{
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.box__img {
+    width: 200px;
+    height: 200px;
+    border-radius: .5em;
+    border: 2px solid #00b4d8;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
